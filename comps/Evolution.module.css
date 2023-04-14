@@ -1,0 +1,143 @@
+.HomeComponent {
+  width: 900px;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: aliceblue;
+}
+
+.searchItemNameandNumber {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+.itemComponent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 10px;
+  margin-top: 50px;
+  background-color: rgb(48, 167, 215, 0.2);
+  border-radius: 10px;
+}
+
+.searchItemheightandweight {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  font-size: 20px;
+  background-color: #30a7d7;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+}
+
+.textcolorblack {
+  color: black;
+}
+
+.searchItemTypeandWeakness {
+  font-size: 24px;
+}
+/* .itemComponent > div > a {
+  text-decoration: none;
+} */
+
+/* .itemName {
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 18px;
+} */
+
+.itemType {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center;
+  align-content: center; */
+}
+
+.itemType > div {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+  padding: 10px;
+  border: 1px solid green;
+  border-radius: 4px;
+  margin: 5px;
+  font-size: 16px;
+  width: 100px;
+}
+
+.blockLoadMoreComponent {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.loadMoreButton {
+  padding: 20px;
+  font-size: 16px;
+}
+
+.landingPageNavigation {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin: 50px 0;
+}
+
+.landingPageNavigation > a {
+  padding: 5px;
+  border: 1px solid black;
+  text-decoration: none;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  border-top: 2px solid black;
+}
+
+.linkpageactive {
+  background-color: rgb(255, 0, 0, 0.5);
+}
+
+.ShowEvolutionButtonComponent {
+  margin-top: 30px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.ShowEvolutionButton {
+  padding: 20px;
+  /* background-color: rgba(117, 144, 170, 0.5); */
+}
+
+.itemNameandNubmer {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding: 20px;
+  padding-left: 0;
+  font-weight: bold;
+}
+
+.itemType > div {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+  padding: 2px;
+  border: 1px solid green;
+  border-radius: 4px;
+  margin: 5px;
+  font-size: 16px;
+  width: 100px;
+}

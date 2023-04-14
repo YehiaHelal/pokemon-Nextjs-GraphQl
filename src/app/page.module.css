@@ -1,0 +1,81 @@
+.HomeComponent {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 50px;
+  /* background-color: rgb(212, 218, 223); */
+}
+
+.itemComponent {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 10px;
+}
+
+.itemComponent > div > a {
+  text-decoration: none;
+}
+
+.itemName {
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.itemType {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center;
+  align-content: center; */
+}
+
+.itemType > div {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+  padding: 5px;
+  border: 1px solid green;
+  border-radius: 4px;
+  margin: 5px;
+  font-size: 12px;
+  width: 50px;
+  height: 18px;
+}
+
+.blockLoadMoreComponent {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.loadMoreButton {
+  padding: 20px;
+  font-size: 16px;
+}
+
+.landingPageNavigation {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin: 50px 0;
+}
+
+.landingPageNavigation > a {
+  padding: 5px;
+  border: 1px solid black;
+  text-decoration: none;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  border-top: 2px solid black;
+}
+
+.linkpageactive {
+  background-color: rgb(255, 0, 0, 0.5);
+}
